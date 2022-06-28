@@ -23,6 +23,7 @@ setInterval(function() {
 			if(i >= upgrades.length) {
 				break;
 			}
+		}
 		if(i >= upgrades.length) {
 			break;
 		}

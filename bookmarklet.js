@@ -1,0 +1,1 @@
+javascript:(function () {Game.LoadMod('https://cdn.jsdelivr.net/gh/Grimtin10/Full-Auto-Cookies@main/fullautocookies.js');}());
