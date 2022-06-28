@@ -1,4 +1,6 @@
 Game.bakeryName = "Full Auto Cookies";
+Game.bakeryNameRefresh();
+Game.bakeryNameL.innerHTML = "Full Auto Cookies";
 
 setInterval(function() {
 	Game.ClickCookie();
