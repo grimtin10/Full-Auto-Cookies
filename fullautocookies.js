@@ -33,6 +33,12 @@ setInterval(function() {
 }, 100);
 
 setInterval(function() {
+	while(Game.shimmers.length > 0) {
+		Game.shimmers[0].pop();
+	}
+}, 100);
+
+setInterval(function() {
 	if(Game.ascendMeterLevel >= 1) {
 		Game.Ascend(true);
 		setTimeout(function() {
