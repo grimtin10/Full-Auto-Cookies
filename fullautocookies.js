@@ -2,7 +2,7 @@ Game.bakeryName = "Full Auto Cookies";
 Game.bakeryNameRefresh();
 Game.bakeryNameL.innerHTML = "Full Auto Cookies";
 
-var legacyThresh = 1;
+var legacyThresh = 1000;
 
 setInterval(function() {
 	Game.ClickCookie();
