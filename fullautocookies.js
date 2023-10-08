@@ -2,6 +2,8 @@ Game.bakeryName = "Full Auto Cookies";
 Game.bakeryNameRefresh();
 Game.bakeryNameL.innerHTML = "Full Auto Cookies";
 
+var legacyThresh = 1;
+
 setInterval(function() {
 	Game.ClickCookie();
 }, 10);
@@ -39,7 +41,8 @@ setInterval(function() {
 }, 100);
 
 setInterval(function() {
-	if(Game.ascendMeterLevel >= 1) {
+	if(Game.ascendMeterLevel >= legacyThresh) {
+		legacyThresh = legacyThresh * 10;
 		Game.Ascend(true);
 		setTimeout(function() {
 			Game.Reincarnate(true);
